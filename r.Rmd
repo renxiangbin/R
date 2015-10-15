@@ -1,5 +1,5 @@
 ---
-output: pdf_document
+output: html_document
 ---
 #### R语言中的函数缩写与全拼
 
@@ -40,4 +40,73 @@ output: pdf_document
 24. kurtosis （统计图）丰度
 25. standard error:se 标准误差
 26. aggregate():聚合,集合,合计.用法: aggregate(x,by=list(y,z),FUN);把数据集 x按照y,z 两个变量组合,把组合后的分类数据用 FUN 处理,返回表格的形式. y,z对应表头Group1,Group2.aggregate(cbind(w,z)~x+y,FUN):只返回 w,z 并以 w,z为表头.
-27. 
+
+----
+
+#### R 复习
+
+1.数组: 
+
+
+	Array <- array(vector,dimensions(维度),dimnames(维度的名称))
+	
+```	{R,echo=FALSE}
+  dim1 <- c("A1","A2")
+  dim2 <- c("B1","B2","B3")
+  dim3 <- c("C1","C2","C3","C4")
+  
+	Array <- array(1:24,c(2,3,4))
+	Array
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
